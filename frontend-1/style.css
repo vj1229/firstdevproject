@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Permanent+Marker&display=swap');
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+table {
+border-collapse: collapse;
+border: 1px solid black;
+width: 60%;
+}
+  
+  
+  
+table.center {
+margin-left: auto;
+margin-right:auto;
+}
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+h1, h2 {
+  background-color:#a8dadc;
+  color: Dark darkblue
+  font-family: verdana;
+  text-align: center;
+}
+
+#specialHeader {
+  background-color:#ffafcc;
+  color: Dark purple;
+  font-family:fantasy;
+  text-align: center;
+
+}
+
+#specialHeader1 {
+  background-color:#ebd088;
+  color: dark brown;
+  font-family:Permanent Marker, cursive;
+  text-align: center;
+  
+}
+
+#specialHeader2 {
+  background-color:#f5837a;
+  color:darkgreen;
+  font-family:League Gothic, sans-serif;
+  text-align: center;
+  
+}
+
+#specialHeader3 {
+  background-color:#e677f2;
+  color:cyan;
+  font-family:sans-serif;
+  text-align: center;
+  
+}
+div.specialQuote {
+  background-color: light gray;
+  width: 60%;
+  height:25% ;
+  margin: auto;
+  padding: 15px;
+  overflow:scroll;
+  font-family: League Gothic, sans-serif;
+}
+
+.center{
+  display:block
+  margin-left:auto;
+  margin-right:auto;
+  }
+
+
+
+
+span.beginningCharacter {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
+
+img.floatLeft{
+  float: left;
+}
+
+img.floatRight{
+  float: right;
+}
+
+div.article {
+  height: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+form{
+  background-color: lightcyan;
+width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px ;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form-prompt {
+    font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

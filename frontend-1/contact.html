@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact me!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Contact me!</h1>
+
+  <form method="post" action="https://backend-1.hiimokim.repl.co">
+    <!-- Default form method is "get" -->
+    <p class= "form prompt">Your name</p>
+    <label for= "fname">First name:</label><br>
+    <input type= "text" id= "fname" name="fname" value="Vj"><br>
+
+    <label for= "lname">Last name:</label><br>
+    <input type= "text" id= "lname" name="lname" value="Lopez"><br>
+  
+    <br>
+    <p class= "form prompt">Your Email</p>
+    <input type= "text" id= "email" name="email" value="Email213@gmail.com"><br>
+    
+    <br>
+    <!-- child(=< 17), Adult, Senior(65+) -->
+   <p class= "form prompt">How old are you</p>
+      <input type="radio" id="child" name="age" value="child"
+      <label for="child">17 years or younger</label><br>
+      <input type="radio" id="Adult+" name="age" value="Adult+"
+      <label for="adult+">18-65</label><br>
+    
+    <br>
+    
+    <p class= "form prompt">Diet</p>
+    <!-- Radio option for dietery preferences (No Preference, Vegan) -->
+    <input type="radio" id="no preferences" name="diet"
+      value="no preferences"
+
+    <label for="no preferences">No preferences</label><br>
+    <input type="radio" id="vegan" name="diet"
+      value="vegan"
+    <label for="vegan">Vegan</label><br>
+
+    <br>
+
+    <p class= "form prompt">Choose your interests</p>
+
+    <input type="checkbox" id="interest 1" name="interest1" value="Video games"
+      <label for="interest1">Video Games</label><br>
+    <input type="checkbox" id="interest 2" name="interest2" value="Sports"
+      <label for="interest2">Sports</label><br>
+    <input type="checkbox" id="interest 3" name="interest3" value="Drinking water"
+      <label for="interest3">Drinking water</label><br>  
+    <br>
+    
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  
+  
+  
+  
+</body>
+
+  <script src="script.js"></script>
+</body>
+</html>
